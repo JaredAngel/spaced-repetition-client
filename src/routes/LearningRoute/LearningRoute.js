@@ -106,4 +106,4 @@ class LearningRoute extends Component {
   }
 }
 
-export default LearningRoute;
+export default LearningRoute

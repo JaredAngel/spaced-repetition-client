@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 export default class Result extends Component {
-  render() {
-    const { data, word, guess } = this.props;
-    return (
+  render(){
+    const {data, word, guess } = this.props
+    return(
       <>
         {
           data.isCorrect 
