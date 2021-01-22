@@ -1,0 +1,27 @@
+.word{
+  font-weight: bolder;
+  color:green;
+  font-size: 36px;
+}
+
+.Learning_Form {
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;
+  margin: auto;
+}
+
+.Learning_Form label {
+  margin-bottom: 10px;
+}
+
+.Learning_Form input {
+  margin-bottom: 10px;
+}
+
+.Learning_Form button{
+  margin: auto;
+}
