@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "predeploy": "npm run build",
+    "predeploy": "CI='' npm run build",
     "deploy": "vercel --prod"
   },
   "author": "Jared Angel Escobedo",
