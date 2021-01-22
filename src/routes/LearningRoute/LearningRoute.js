@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class LearningRoute extends Component {
   render() {
@@ -10,4 +10,4 @@ class LearningRoute extends Component {
   }
 }
 
-export default LearningRoute
+export default LearningRoute;
