@@ -6,8 +6,8 @@
 
 li {
   list-style: none;
-  background-color: rgb(149, 224, 149);
-  box-shadow: 5px 5px 8px white, 10px 10px 8px red;
+  background-color: #666;
+  box-shadow: 5px 5px 8px white, 10px 10px 8px rgb(86, 131, 189);
   border-radius: 25px;
   padding: 10px;
   margin: 10px;

@@ -10,8 +10,13 @@ body {
   font-family: "Ubuntu", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #222;
 }
 
 :root {
   --font-size: calc(10px + 1vmin);
+}
+
+.word {
+  color: #222;
 }

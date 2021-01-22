@@ -1,13 +1,13 @@
 .word{
   font-weight: bolder;
-  color:green;
+  color:lightskyblue;
   font-size: 36px;
 }
 
 .Learning_Form {
   display:flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #666;
   border-radius: 25px;
   padding: 25px;
   max-width: 450px;
@@ -20,8 +20,10 @@
 
 .Learning_Form input {
   margin-bottom: 10px;
+  background-color: lightskyblue;
 }
 
 .Learning_Form button{
   margin: auto;
+  background-color: lightskyblue;
 }
