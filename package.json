@@ -15,12 +15,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "CI=true react-scripts test --colors",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "predeploy": "CI='' npm run build",
+    "predeploy": "npm run build",
     "deploy": "vercel --prod"
   },
   "author": "Jared Angel Escobedo",
